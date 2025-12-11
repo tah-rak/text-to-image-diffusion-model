@@ -21,7 +21,7 @@ The project uses:
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 We address the task of **sketch-to-image generation** under textual guidance:
 
@@ -39,7 +39,7 @@ We explore:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 A typical structure (you can adapt to your repo) is:
 
@@ -57,3 +57,22 @@ A typical structure (you can adapt to your repo) is:
 │   ├── fscoco_example.png
 │   └── edges2shoes_example.png
 └── README.md
+
+## Datasets
+   Gen AI project
+        ├── Object/                  # SketchyCOCO object-level subset
+        │   ├── Sketch/              # sketches
+        │   └── GT/                  # ground-truth photos
+        │
+        ├── Scene/                   # SketchyCOCO scene-level subset
+        │   ├── Scene/
+        │   │   └── Sketch/paper_version/trainInTrain, val, valInTrain ...
+        │   └── GT/trainInTrain, val, valInTrain ...
+        │
+        ├── fscoco/                  # FSCOCO dataset (sketch/image/caption)
+        │   └── (JSON / image folders)
+        │
+        └── edges2shoes/             # Edges2Shoes dataset
+            ├── train/
+            └── test/
+
