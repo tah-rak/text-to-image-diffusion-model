@@ -16,7 +16,7 @@ The project uses:
 - **Pix2Pix U-Net + PatchGAN** for Edges2Shoes as a GAN baseline
 - **FID & Inception Score** for quantitative evaluation
 
-> All core code is in the notebook: **`Gen_ai_final.ipynb`**  
+> All core code is in the notebook: **`code.ipynb`**  
 > The project is designed to run primarily on **Google Colab (L4 GPU)**.
 
 ---
