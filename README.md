@@ -41,7 +41,7 @@ We explore:
 
 ##  Project Structure
 
-A typical structure (you can adapt to your repo) is:
+A typical structure  is:
 
 ```text
 .
